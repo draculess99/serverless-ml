@@ -1,6 +1,6 @@
 service: california-housing
 
-frameworkVersion: '3'
+frameworkVersion: '2'
 
 provider:
   name: aws
