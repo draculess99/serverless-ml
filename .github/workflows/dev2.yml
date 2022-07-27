@@ -23,7 +23,7 @@ jobs:
     - uses: actions/checkout@v1
     - uses: actions/setup-node@v1
       with:
-        node-version: '12.13.0'
+        node-version: '11x'
     - name: Install Serverless Framework
       run: npm install -g serverless
     - name: Serverless AWS authentication
