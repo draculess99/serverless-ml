@@ -37,7 +37,7 @@ jobs:
 #      run: pwd;cd scikit-example;sls plugin install -n serverless-api-gateway-throttling
     - name: Install plugins
       run: cd scikit-example;npm install
-    - name: Deploy Lambda functions
-      run: pwd;cd scikit-example;sls deploy
-    - name: Test Lambda functions
-      run: pwd;cd scikit-example;sls invoke --function predict-price --path "$(pwd)/event.json"
+#    - name: Deploy Lambda functions
+#      run: pwd;cd scikit-example;sls deploy
+#    - name: Test Lambda functions
+#      run: pwd;cd scikit-example;sls invoke --function predict-price --path "$(pwd)/event.json"
