@@ -16,7 +16,7 @@ on:
   push:
     branches:
       - scikit
-      - master
+      - main
 jobs:
   deploy-dev:
     runs-on: ubuntu-latest
