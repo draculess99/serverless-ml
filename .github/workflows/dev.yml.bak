@@ -12,11 +12,9 @@
 
 name: Deploy Dev
 on:
-  pull_request:
   push:
     branches:
       - scikit
-      - master
 jobs:
   deploy-dev:
     runs-on: ubuntu-latest
